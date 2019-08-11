@@ -1,0 +1,17 @@
+-- commands command made by Steven using the rules command lua as a resource
+
+COM_AddCommand("commands", function(p)
+	CONS_Printf(p, "\x87"+"The Command list: note all commands can be entered in chat with / or in the console without the /")
+	CONS_Printf(p, "\x87"+"remove the ' ' when entering the command")
+	CONS_Printf(p, "\x87"+"'util' for utility  comands")
+	CONS_Printf(p, "\x87"+"'localrecords' to see the localrecord for the level")
+	CONS_Printf(p, "\x87"+"'discord' to get a invite to the discord server")
+	CONS_Printf(p, "\x87"+"'coop' for the main server")
+	CONS_Printf(p, "\x87"+"'2d' for the srb1remake server")
+	CONS_Printf(p, "\x87"+"'lobby1' or 'match' for the lobby1 server you can vote on what gamemode you want")
+	CONS_Printf(p, "\x87"+"'lobby2' or 'race' for the lobby2 server you can vote on what gamemode you want")
+	CONS_Printf(p, "\x87"+"'lobby3' or 'tag' for the lobby3 server you can vote on what gamemode you want")
+	CONS_Printf(p, "\x87"+"'helpop' to report a rule break on the server")
+	CONS_Printf(p, "\x87"+"'sayto nameornodehere messagehere' aka person message")
+	CONS_Printf(p, "\x87"+"'rules' to see the rules of the server")
+end)
